@@ -1,0 +1,52 @@
+
+body {
+	
+	font-family: 'Kurale', serif;
+	background:rgb(0,255,0); 
+}
+h1{
+	padding-left:7%;
+	margin-top: 15%; 
+	text-align: center;
+
+}
+
+h3{
+	padding-left:7%;
+	margin-top: 15%; 
+	text-align: center;
+}
+
+span{
+	text-decoration: underline;
+}
+
+button{
+	padding-left:10%;
+	margin-top: 15%; 
+	text-align: center;
+	color: white;
+}
+
+.terms{
+	font-size: 10px
+}
+
+.container{
+	background: white;
+	color: black;
+}
+
+body{
+	background-color: white;
+}
+
+./*form-group{
+		padding-left:17%;
+	margin-top: 5%; 
+	}*/
+
+	/*.container{
+		padding-left:20%;
+	margin-top: 15%; 
+	}*/

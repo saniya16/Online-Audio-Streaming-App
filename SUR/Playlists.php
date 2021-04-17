@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="assets/css/Playlists.css">
+  <link href="https://cdn.syncfusion.com/ej2/ej2-base/styles/material.css" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+<title> PLAYLIST </title>
+
+</head>
+<body>
+  
+  <nav id="mainNav" class="navbar navbar-expand-md navbar-dark py-0">
+  	<div class="collapse navbar-collapse nav justify-content-center" id="navLinks">
+    <a href="#" class="navbar-brand">SUR</a> 
+  </div>
+    <ul class="nav justify-content-end">
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Song, Artist, Genre" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  </ul>
+  </nav>
+
+  <div class="sidenav">
+  <a href="#"><span class="material-icons">home</span> Home</a>
+  <a href="#"><span class="material-icons">search</span> Browse</a>
+  <a href="#"><span class="material-icons">sensors</span> Radio</a>
+  <br>
+  <br>
+  <p>Your Library</p>
+  <a href="#">Made For You</a>
+  <a href="#">Recently Played</a>
+  <a href="#">Favourite</a>
+  <br>
+  <br>
+  <a href="#">New Playlist</a>
+</div>
+
+
+<div class="mainBody">
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://api.time.com/wp-content/uploads/2018/04/listening-to-music-headphones.jpg?quality=85&w=1024&h=512&crop=1" class="d-block w-100" alt="...">
+    </div>
+     <div class="carousel-item">
+      <img src="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2018/09/1024/512/Enrique-driving-charges.jpg?ve=1&tl=1" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://bollyworm.com/wp-content/uploads/2018/12/Yo-Yo-Honey-Singh-2-1024x512.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://api.time.com/wp-content/uploads/2020/02/BTS-small-seven-twitter-meme-meaning.jpg?quality=85&w=1024&h=512&crop=1" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.myfirstevent.in/wp-content/uploads/2018/11/arijit-singh-live-in-concert.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://musicdaily.hu/wp-content/uploads/2019/04/Lauv-1024x512.png" class="d-block w-100" alt="...">
+    </div>
+   
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<br>
+ 
+<b>Popular Albums</b>
+
+    
+    <button align="right" id="slideLeft" type="button"><span class="material-icons">&lt</span></button>
+    <button align="right" id="slideRight" type="button"><span class="material-icons">&gt</span></button>
+    <hr>
+    
+<div id="container">
+
+
+<div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
+			
+			<div class="row">
+			<div class="col-lg-3 mb-4">
+<div class="card bg-dark" style=" height: 14rem; width: 224px;">
+  <div class="front">
+  <img src="https://media.pitchfork.com/photos/5f99c6da362a0a17e78b8096/1:1/w_320/Ariana-Grande-positions.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+  <ul class="list-group list-group-flush" type="none">
+   <li class="list-group-item1">Positions</li>
+    <li class="list-group-item2">Ariana Grande</li>
+  </ul>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="col-lg-3 mb-4">
+<div class="card bg-dark" style=" height: 14rem; width: 224px;">
+  <img src="https://i.scdn.co/image/ab67616d0000b273281650a8e8c5d04658d31ac1" class="card-img-top" alt="...">
+  <div class="card-body">
+  <ul class="list-group list-group-flush" type="none">
+   <li class="list-group-item1">Ghungroo (From "War")</li>
+    <li class="list-group-item2">Arijit Singh, Shilpa Rao</li>
+  </ul>
+  </div>
+</div>
+</div>
+
+<div class="col-lg-3 mb-4">
+<div class="card bg-dark" style=" height: 14rem; width: 224px;">
+  <img src="https://www.moviesmedia.net/wp-content/uploads/2020/02/love-aaj-kal-2020-320x320.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+  <ul class="list-group list-group-flush" type="none">
+   <li class="list-group-item1">Love Aaj Kal (Original Motion Picture)</li>
+    <li class="list-group-item2">Pritam</li>
+  </ul>
+  </div>
+</div>
+</div>
+
+
+
+
+<div class="col-lg-3 mb-4">
+<div class="card bg-dark" style=" height: 14rem; width: 224px;">
+  <img src="https://i1.sndcdn.com/artworks-000575237942-aubl8t-t500x500.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+  <ul class="list-group list-group-flush" type="none">
+   <li class="list-group-item1">I'M So Tired</li>
+    <li class="list-group-item2">Lauv</li>
+  </ul>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="col-lg-3 mb-4">
+<div class="card bg-dark" style=" height: 14rem; width: 224px;">
+  <img src="https://upload.wikimedia.org/wikipedia/en/1/1d/24kGoldn_-_Mood.png" class="card-img-top" alt="...">
+  <div class="card-body">
+  <ul class="list-group list-group-flush" type="none">
+   <li class="list-group-item1">Mood</li>
+    <li class="list-group-item2">24KGoldn, iann dior</li>
+  </ul>
+  </div>
+</div>
+</div>
+
+<div class="col-lg-3 mb-4">
+<div class="card bg-dark" style=" height: 14rem; width: 224px;">
+  <img src="https://a10.gaanacdn.com/gn_img/albums/P7m3GvNKqx/P7m3G5Ebqx/size_xxl.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+  <ul class="list-group list-group-flush" type="none">
+   <li class="list-group-item1">Karthik calling Karthik</li>
+    <li class="list-group-item2">Shankar-Ehsaan-Loy</li>
+  </ul>
+  </div>
+</div>
+</div>
+
+
+<div class="col-lg-3 mb-4">
+<div class="card bg-dark" style=" height: 14rem; width: 224px;">
+  <img src="https://m.media-amazon.com/images/I/713SoIdVfuL._AC_UL320_ML3_.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+  <ul class="list-group list-group-flush" type="none">
+   <li class="list-group-item1">Jaane Kyun (From "Dostana")</li>
+    <li class="list-group-item2">Vishal Dadlani</li>
+  </ul>
+  </div>
+</div>
+</div>
+
+<div class="col-lg-3 mb-4">
+<div class="card bg-dark" style=" height: 14rem; width: 224px;">
+  <img src="https://m.media-amazon.com/images/I/713SoIdVfuL._AC_UL320_ML3_.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+  <ul class="list-group list-group-flush" type="none">
+   <li class="list-group-item1">Jaane Kyun (From "Dostana")</li>
+    <li class="list-group-item2">Vishal Dadlani</li>
+  </ul>
+  </div>
+</div>
+</div>
+
+
+<!-- <div class="col-lg-3 mb-4">
+<div class="card bg-dark" style=" height: 14rem; width: 224px;">
+  <img src="https://static.wikia.nocookie.net/myat40/images/5/59/Nicky_Jam_-_El_Perd%C3%B3n_%28Forgiveness%29_%28with_Enrique_Iglesias%29/revision/latest/scale-to-width-down/340?cb=20151025010928" class="card-img-top" alt="...">
+  <div class="card-body">
+  <ul class="list-group list-group-flush" type="none">
+   <li class="list-group-item1">El Pardon</li>
+    <li class="list-group-item2">Enrique Iglesias, Nicky Jam</li>
+
+  </ul>
+  </div>
+</div>
+</div> -->
+
+</div>
+
+</div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/yourcode.js"></script>
+<script src="jquery.counterup.min"></script>
+
+<script>
+    var button = document.getElementById('slideRight');
+button.onclick = function () {
+    var container = document.getElementById('container');
+    sideScroll(container,'right',25,1000,1000);
+};
+
+var back = document.getElementById('slideLeft');
+back.onclick = function () {
+    var container = document.getElementById('container');
+    sideScroll(container,'left',25,1000,1000);
+};
+
+
+function sideScroll(element,direction,speed,distance,step){
+    scrollAmount = 0;
+    var slideTimer = setInterval(function(){
+        if(direction == 'left'){
+            element.scrollLeft -= step;
+        } else {
+            element.scrollLeft += step;
+        }
+        scrollAmount += step;
+        if(scrollAmount >= distance){
+            window.clearInterval(slideTimer);
+        }
+    }, speed);
+}
+
+	 
+
+    // buttonRight.onclick = function () {
+    //   document.getElementById('container').scrollLeft += 1500;
+    // };
+    // buttonLeft.onclick = function () {
+    //   document.getElementById('container').scrollLeft -= 1500;
+    // };
+
+    window.addEventListener('scroll', function() {
+  console.log("Scrollin'");
+});
+</script>
+
+
+
+</body>
+</html>
